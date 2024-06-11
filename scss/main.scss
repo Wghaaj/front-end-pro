@@ -1,5 +1,15 @@
+@use 'variables' as *;
+
 * {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
+
+@mixin font($fs, $fw, $lh, $ls) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+    letter-spacing: $ls;
+}
+
