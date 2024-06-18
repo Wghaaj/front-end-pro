@@ -1,0 +1,10 @@
+console.log('Тип даних undefined:', typeof undefined); 
+console.log('Тип даних null:', typeof null); 
+console.log('Тип даних boolean:', typeof true); 
+console.log('Тип даних number:', typeof 42); 
+console.log('Тип даних string:', typeof 'Hello, world!'); 
+console.log('Тип даних bigint:', typeof 10n); 
+console.log('Тип даних symbol:', typeof Symbol('symbol')); 
+console.log('Тип даних object:', typeof { key: 'value' }); 
+console.log('Тип даних array:', typeof [1, 2, 3]); 
+console.log('Тип даних function:', typeof function(){}); 
