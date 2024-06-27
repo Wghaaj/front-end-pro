@@ -1,9 +1,11 @@
-const num = parseInt(prompt("Введіть ціле число:"));
+let num = parseInt(prompt("Введіть ціле число:"));
 
-if (isNaN(num)) {
-    console.log("Будь ласка, введіть коректне ціле число.");
-} else if (num <= 1) {
-    console.log(`${num} не є простим числом.`);
+while (isNaN(num)) {
+    alert("Будь ласка, введіть коректне ціле число.");
+    num = parseInt(prompt("Введіть ціле число:"));
+} 
+if (num <= 1) {
+    alert(`${num} не є простим числом.`);
 } else {
     let isPrime = true;
     for (let i = 2; i <= Math.sqrt(num); i++) {
@@ -13,8 +15,8 @@ if (isNaN(num)) {
         }
     }
     if (isPrime) {
-        console.log(`${num} є простим числом.`);
+        alert(`${num} є простим числом.`);
     } else {
-        console.log(`${num} не є простим числом.`);
+        alert(`${num} не є простим числом.`);
     }
 }
