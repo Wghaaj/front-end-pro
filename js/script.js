@@ -3,7 +3,6 @@ function multiply(a) {
       return a * b;
     }
   }
-  
-  // Використання
+
   const result = multiply(5)(2);
   console.log(result); 
