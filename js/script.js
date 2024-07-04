@@ -5,7 +5,6 @@ function promptForNumber() {
       number = prompt("Введіть число більше 100:");
   
       if (number === null) {
-        // Користувач натиснув "Скасувати"
         break;
       }
   
