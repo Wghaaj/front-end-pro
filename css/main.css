@@ -2,4 +2,20 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 25px auto;
+}
+
+table, tr, td {
+  text-align: right;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+tr, td {
+  background-color: #d5d5d5;
 }/*# sourceMappingURL=main.css.map */
