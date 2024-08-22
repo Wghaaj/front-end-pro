@@ -13,3 +13,39 @@
     letter-spacing: $ls;
 }
 
+.text {
+    color: black;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid black;
+    max-width: 50vw;
+}
+
+h1 {
+    margin-bottom: 5rem;
+}
+
+.flex {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: fit-content;
+}
+
+.button {
+    border: none;
+    background-color: unset;
+    padding: 5px 10px;
+}
+
+.green {
+    margin-left: 4rem;
+    color: green;
+   border: 1px solid green;
+//    background-color: none;
+}
+
+.red {
+    color: red;
+    border: 1px solid red;
+}
