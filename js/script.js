@@ -1,10 +1,10 @@
 const images = [
-    "../images/image1.avif",
-    "../images/image2.webp",
-    "../images/image3.webp",
+    "../images/image1.jpg",
+    "../images/image2.jpg",
+    "../images/image3.jpg",
     "../images/image4.jpg",
-    "../images/image5.webp",
-    "../images/image6.webp",
+    "../images/image5.jpg",
+    "../images/image6.jpg",
     "../images/image7.jpg"
 ];
 
