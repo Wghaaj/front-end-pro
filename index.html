@@ -9,6 +9,28 @@
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
+    <div>
+        <form action="#" method="get" class="form" id="contactForm">
+          <p class="text-gradient h2">We would like to help you</p>
+      
+          <input type="text" id="name" class="input" placeholder="Name" required>
+          <p id="nameError" class="error-message"></p>
+      
+          <textarea name="message" id="message" class="input" cols="" rows="" placeholder="Message" minlength="5" required></textarea>
+          <p id="messageError" class="error-message"></p>
+      
+          <p class="answer">HOW TO ANSWER YOU?</p>
+      
+          <input type="tel" name="tel" id="tel" class="input" placeholder="Phone number" required>
+          <p id="telError" class="error-message"></p>
+      
+          <input type="email" name="email" id="email" class="input" placeholder="Email" required>
+          <p id="emailError" class="error-message"></p>
+      
+          <button type="button" id="button" class="button">Send message</button>
+        </form>
+      </div>
+      
     
     <script src="js/script.js"></script>
 </body>

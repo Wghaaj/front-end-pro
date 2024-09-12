@@ -13,3 +13,115 @@
     letter-spacing: $ls;
 }
 
+.text-gradient {
+    background-image: $red-text-gradient !important;
+    -webkit-background-clip: text !important;
+    color: transparent !important;
+
+    &__innner {
+        font-size: 2.375em;
+    }
+}
+
+
+form {
+    background-color: $grey-bg;
+    padding: calc($common-margin /2);
+    border-radius: 12px;
+    max-width: 60vw;
+    margin: 0 auto;
+
+    @media screen and (max-width:920px) {
+        margin-left: 0;
+        margin-top: $common-margin;
+    }
+
+    @media screen and (max-width:600px) {
+        margin-left: 0;
+    }
+
+    .red-border {
+        border: 1px solid rgba(255, 0, 0, 1)!important;
+        color: rgba(255, 0, 0, 1)!important;
+    }
+    
+    .blue-border {
+        border: 1px solid rgba(36, 163, 255, 1)!important;
+    }
+
+    .h2 {
+        // @include fonts(transparent, 30px, 700, 36.57px);
+        color: transparent;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36.57px;
+        margin-bottom: 15px;
+    }
+
+    .input {
+        border: 1px;
+        border-radius: 8px;
+        padding: 15px;
+        width: 100%;
+        margin-top: 15px;
+        height: 56px;
+    }
+
+    .message {
+        height: 130px;
+        vertical-align: text-top;
+    }
+
+    #message {
+        height: 130px;
+    }
+
+    ::-webkit-input-placeholder {
+        font-family: "Montserrat";
+        // @include fonts($grey-text, 16px, 400, 26px);
+        color: $grey-text;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .answer {
+        margin-top: calc($common-margin /2);
+        // @include fonts($grey-text, 14px, 700, 17.07px)
+        color: $grey-text;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17.07px;
+    }
+
+    .active-button {
+        background-color: $active;
+    }
+
+    button {
+        padding: 18px 30px;
+        border: none;
+        background-color: $active-regular;
+        border-radius: 12px;
+        margin: auto;
+        width: 100%;
+        box-shadow: 0 0 20px 0 rgba(36, 163, 255, 0.5);
+        // @include fonts(white, 16px, 700, 19.5px);
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.5px;
+        margin-top: calc($common-margin /2);
+        text-align: center;
+
+        &:hover {
+            background-color: $active-hover;
+        }
+    }
+    .error-message {
+        color: red;
+        font-size: 0.8rem;
+        display: none; 
+    }
+    
+}
