@@ -2,4 +2,9 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+}
+
+.timer {
+  font-size: 48px;
+  font-family: Arial, sans-serif;
 }/*# sourceMappingURL=main.css.map */
