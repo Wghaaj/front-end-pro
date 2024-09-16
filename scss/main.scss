@@ -13,3 +13,78 @@
     letter-spacing: $ls;
 }
 
+body {
+    background: linear-gradient(228deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 39%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    height: 500px;
+    width: 360px;
+    background-color: #757575;
+    box-shadow: 0px 6px 24px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    #input {
+        width: 90%;
+        height: 3rem;
+        background-color: #474646;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        padding: 0px 8px;
+        color: white;
+
+        &::placeholder {
+            color: #a09d9d;
+        }
+    }
+}
+
+#task-list {
+    color: white;
+    list-style:none;
+
+    li {
+        background-color:#a09d9d;
+        border-radius: 30px;
+        padding: 5px 10px;
+        margin-top: 10px;
+        width: 19rem;
+        position: relative;
+    }
+
+    .fa-check, .fa-trash {
+        position: absolute;
+        cursor: pointer;
+    }
+
+    .fa-check {
+        color: greenyellow;
+        right: 3rem;
+    }
+    
+    .fa-trash {
+        color: red;
+        right: 1rem;
+    }
+
+    .completed {
+        text-decoration: line-through;
+        background: lightgreen;
+        transition: .2s;
+    }
+}
+

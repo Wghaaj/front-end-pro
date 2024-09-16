@@ -2,4 +2,75 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(228deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 39%, rgb(0, 212, 255) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  height: 500px;
+  width: 360px;
+  background-color: #757575;
+  box-shadow: 0px 6px 24px black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container #input {
+  width: 90%;
+  height: 3rem;
+  background-color: #474646;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 0px 8px;
+  color: white;
+}
+.container #input::-moz-placeholder {
+  color: #a09d9d;
+}
+.container #input::placeholder {
+  color: #a09d9d;
+}
+
+#task-list {
+  color: white;
+  list-style: none;
+}
+#task-list li {
+  background-color: #a09d9d;
+  border-radius: 30px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  width: 19rem;
+  position: relative;
+}
+#task-list .fa-check, #task-list .fa-trash {
+  position: absolute;
+  cursor: pointer;
+}
+#task-list .fa-check {
+  color: greenyellow;
+  right: 3rem;
+}
+#task-list .fa-trash {
+  color: red;
+  right: 1rem;
+}
+#task-list .completed {
+  text-decoration: line-through;
+  background: lightgreen;
+  transition: 0.2s;
 }/*# sourceMappingURL=main.css.map */
