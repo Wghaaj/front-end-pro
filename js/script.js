@@ -53,4 +53,12 @@ $(document).ready(function () {
     });
 
     loadTasks();
+
+    $('#addTaskBtn').on('click', function () {
+        $(this).hide()
+    });
+
+    $('#closeBtn').on('click', function () {
+        $('#addTaskBtn').show()
+    })
 });
