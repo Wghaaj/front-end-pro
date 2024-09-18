@@ -15,20 +15,28 @@ body {
   min-height: 100vh;
 }
 
-.container {
-  height: 500px;
-  width: 360px;
-  background-color: #757575;
-  box-shadow: 0px 6px 24px black;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 0 auto;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+button {
+    border:none;
+    background-color:none;
 }
-.container #input {
+
+.addTaskBtn {
+    border: 1px solid green;
+    background-color:green;
+    padding:10px 15px;
+    border-radius: 10px;
+    color:white;
+}
+
+.modal-body {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+.modal-body #input {
   width: 90%;
   height: 3rem;
   background-color: #474646;
@@ -38,10 +46,10 @@ body {
   padding: 0px 8px;
   color: white;
 }
-.container #input::-moz-placeholder {
+.modal-body #input::-moz-placeholder {
   color: #a09d9d;
 }
-.container #input::placeholder {
+.modal-body #input::placeholder {
   color: #a09d9d;
 }
 
