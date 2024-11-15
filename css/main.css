@@ -2,4 +2,52 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+}
+
+#weather-widget {
+  display: grid;
+  grid-template-areas: "a a " "b c" "d d";
+  max-width: 50vw;
+  background-color: #8cb3dc;
+  border-radius: 10px;
+}
+
+.area-a {
+  grid-area: "a";
+}
+
+.area-b {
+  grid-area: "b";
+}
+
+.area-c {
+  grid-area: "c";
+  margin-top: 2.5rem;
+}
+
+.area-d {
+  grid-area: "d";
+  margin-top: 1rem;
+}
+
+#location {
+  font-size: 24px;
+}
+
+#temperature, #description {
+  font-weight: 700;
+}
+
+#refresh-btn {
+  padding: 5px 10px;
+  height: 40px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#refresh-btn:hover {
+  background-color: #4c545c;
 }/*# sourceMappingURL=main.css.map */
