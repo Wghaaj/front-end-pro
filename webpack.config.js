@@ -38,16 +38,10 @@ module.exports = {
     }),
   ],
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    compress: true,
+    static: path.join(__dirname, 'dist'), 
     port: 9000,
-    hot: true,
+    open: true, 
+    hot: true, 
   },
   mode: 'development',
-  devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    open: true, 
-    port: 9000, 
-  },
-  
 };
