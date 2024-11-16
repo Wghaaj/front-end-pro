@@ -1,3 +1,4 @@
+import '../scss/main.scss';
 const apiKey = '75e42ba9211fa4d0c5c4dbdeb0081979';
 const city = 'Odesa';
 
