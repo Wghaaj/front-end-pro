@@ -1,0 +1,49 @@
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.col span {
+    font-size: 36px;
+}
+
+.btn {
+    background-color: gold;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.btn-show {
+    background-color: green;
+    border: 1px solid rgb(2, 141, 2) ;
+    border-radius: 15px;
+    padding: 8px 15px;
+    color: white;
+    margin-top: 1rem;
+}
+
+.btn-clear {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 8px 15px;
+    color: white;
+    margin-top: 1rem;
+}
